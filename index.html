@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <div class="logo">
+        <button onclick="openNav('open')">
+          <span></span><span></span><span></span>
+        </button>
+        <a href="#"><img src="./images/logo.svg" alt="Wedding Tool" /></a>
+      </div>
+      <nav class="nav">
+        <ul>
+          <div class="logo">
+            <button onclick="openNav()">
+              <span></span><span></span><span></span>
+            </button>
+            <a href="#"><img src="./images/logo.svg" alt="Wedding Tool" /></a>
+          </div>
+          <li><a href="#">PLANNING TOOLS</a></li>
+          <li><a href="#">VENUES</a></li>
+          <li><a href="#">SUPPLIERS</a></li>
+          <li><a href="#">DRESSES</a></li>
+          <li><a href="#">IDEAS</a></li>
+          <li><a href="#">FORUMS</a></li>
+          <li><a href="#">GIFT LISTS</a></li>
+          <li><a href="#">STATIONARY</a></li>
+          <li class="forMobile"><a href="#">SIGN UP</a></li>
+        </ul>
+      </nav>
+      <div class="buttons">
+        <button>LOG IN</button>
+        <button>SIGN UP</button>
+      </div>
+    </header>
+
+    <!-- hero -->
+    <div class="container hero">
+      <img src="./images/hero.png" alt="Two Couples" />
+      <img
+        src="https://images.unsplash.com/photo-1676136645846-f8625f6da26b"
+        alt="Two Couples"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1676136645846-f8625f6da26b"
+        alt="Two Couples"
+      />
+      <img src="./images/hero.png" alt="Two Couples" />
+
+      <div class="navigators">
+        <button onclick="changeHeroImage(0)"></button>
+        <button onclick="changeHeroImage(1)"></button>
+        <button onclick="changeHeroImage(2)"></button>
+        <button onclick="changeHeroImage(3)"></button>
+      </div>
+
+      <div class="box">
+        <img src="./images/heart.svg" alt="Heart" />
+        <h3>
+          <span>Find the</span> <br />
+          <span class="bottom">Perfect Wedding Vendor</span>
+        </h3>
+        <p>“Search tamil wedding suppliers by category location or name”</p>
+        <div class="buttons">
+          <div class="first">
+            <input type="text" placeholder="We’re looking for" /><button
+              onclick="openHeroMenu(0)"
+            >
+              <img src="./images/open.svg" alt="Menu Opener" />
+            </button>
+            <div class="menu">
+              <button>Option One</button><button>Option One</button>
+            </div>
+          </div>
+          <div class="second">
+            <input type="text" placeholder="Enter Location" /><button
+              onclick="openHeroMenu(1)"
+            >
+              <img src="./images/open.svg" alt="Menu Opener" />
+            </button>
+            <div class="menu">
+              <button>Option One</button><button>Option One</button>
+            </div>
+          </div>
+          <div class="third">
+            <input type="text" placeholder="Or called" /><button
+              onclick="openHeroMenu(2)"
+            >
+              <img src="./images/open.svg" alt="Menu Opener" />
+            </button>
+            <div class="menu">
+              <button>Option One</button><button>Option One</button
+              ><button>Option One</button>
+            </div>
+          </div>
+          <div class="forth">
+            <button><img src="./images/search.svg" alt="Search" /></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end hero -->
+    <!-- Categories -->
+    <section class="categories container">
+      <h2>Browse featured categories</h2>
+      <div class="box">
+        <div class="left">
+          <a href="#" class="subcontainer">
+            <img src="./images/photography.svg" alt="photography" /><span
+              >Photography</span
+            >
+          </a>
+          <a href="#" class="subcontainer">
+            <img src="./images/florist.svg" alt="florist" /><span>Florist</span>
+          </a>
+        </div>
+        <div class="right">
+          <a href="#" class="subcontainer">
+            <img src="./images/music.svg" alt="music" /><span>Music</span>
+          </a>
+          <a href="#" class="subcontainer">
+            <img src="./images/dressing.svg" alt="dressing" /><span
+              >Dressing</span
+            >
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end Categories -->
+    <!-- Heading -->
+    <section class="pageHeading container">
+      <h2>Tools That Make Wedding Planning a Piece of Cake</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </p>
+      <img src="./images/heart2.svg" alt="Heart" />
+    </section>
+    <!-- end Heading -->
+    <!-- whyEasy -->
+    <section class="whyEasy container">
+      <div>
+        <img src="./images/image 12.png" alt="image" /><span>Checklist</span>
+      </div>
+      <div>
+        <img src="./images/image 13.png" alt="image" /><span>Guestlist</span>
+      </div>
+      <div>
+        <img src="./images/imageMiss.png" alt="image" /><span>Seat Chart</span>
+      </div>
+      <div>
+        <img src="./images/image 15.png" alt="image" /><span>Budget</span>
+      </div>
+      <div>
+        <img src="./images/image 16.png" alt="image" /><span>Supplier</span>
+      </div>
+      <div>
+        <img src="./images/image 17.png" alt="image" /><span>Website</span>
+      </div>
+    </section>
+    <!-- end whyEasy -->
+    <!-- Heading -->
+    <section class="pageHeading container">
+      <h2>Feature Wedding Suppliers In London</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </p>
+      <img src="./images/heart2.svg" alt="Heart" />
+    </section>
+    <!-- end Heading -->
+    <!-- weddingSuppliers -->
+    <section class="weddingSuppliers container">
+      <a href="#" class="card">
+        <div class="top">
+          <img src="./images/WeddingSupllier.png" alt="Ceremony" />
+          <div class="rating">
+            <img src="./images/star.svg" alt="Star" /><span>4.5</span>
+          </div>
+        </div>
+        <div class="bottom">
+          <h3>Title</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled
+          </p>
+        </div>
+      </a>
+      <a href="#" class="card">
+        <div class="top">
+          <img src="./images/WeddingSupllier1.png" alt="Ceremony" />
+          <div class="rating">
+            <img src="./images/star.svg" alt="Star" /><span>4.5</span>
+          </div>
+        </div>
+        <div class="bottom">
+          <h3>Title</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled
+          </p>
+        </div>
+      </a>
+      <a href="#" class="card">
+        <div class="top">
+          <img src="./images/WeddingSupllier2.png" alt="Ceremony" />
+          <div class="rating">
+            <img src="./images/star.svg" alt="Star" /><span>4.5</span>
+          </div>
+        </div>
+        <div class="bottom">
+          <h3>Title</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled
+          </p>
+        </div>
+      </a>
+    </section>
+    <!-- end weddingSuppliers -->
+    <!-- Heading -->
+    <section class="pageHeading container">
+      <h2>Real Weddings</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </p>
+      <img src="./images/heart2.svg" alt="Heart" />
+    </section>
+    <!-- end Heading -->
+    <!-- realWeddings -->
+    <section class="realWeddings container">
+      <!-- first -->
+      <div class="card">
+        <div class="top"><img src="./images/main1.png" alt="Main One" /></div>
+        <div class="bottom">
+          <div class="top">
+            <img src="./images/main1a.png" alt="Main One A" /><img
+              src="./images/main1b.png"
+              alt="Main One B"
+            /><img src="./images/main1c.png" alt="Main One C" />
+          </div>
+          <a href="#" class="bottom">
+            <div class="left">
+              <h4>Raj & Kumari</h4>
+              <p>Columbo, Srilanka</p>
+            </div>
+            <div class="right">
+              <img src="./images/arrow.svg" alt="Arrow" />
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- second -->
+      <div class="card">
+        <div class="top"><img src="./images/main2.png" alt="Main Two" /></div>
+        <div class="bottom">
+          <div class="top">
+            <img src="./images/main2a.png" alt="Main Two A" /><img
+              src="./images/main2b.png"
+              alt="Main Two B"
+            /><img src="./images/main2c.png" alt="Main Two C" />
+          </div>
+          <a href="#" class="bottom">
+            <div class="left">
+              <h4>Ekaterina & Ben</h4>
+              <p>Columbo, Srilanka</p>
+            </div>
+            <div class="right">
+              <img src="./images/arrow.svg" alt="Arrow" />
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Third -->
+      <div class="card">
+        <div class="top"><img src="./images/main3.png" alt="Main Third" /></div>
+        <div class="bottom">
+          <div class="top">
+            <img src="./images/main3a.png" alt="Main Third A" /><img
+              src="./images/main3b.png"
+              alt="Main Third B"
+            /><img src="./images/main3c.png" alt="Main Third C" />
+          </div>
+
+          <a href="#" class="bottom">
+            <div class="left">
+              <h4>Kieran & Lauren</h4>
+              <p>Columbo, Srilanka</p>
+            </div>
+            <div class="right">
+              <img src="./images/arrow.svg" alt="Arrow" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end realWeddings -->
+    <!-- Heading -->
+    <section class="pageHeading container">
+      <h2>2021 Couple's Choice Awards</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </p>
+      <img src="./images/heart2.svg" alt="Heart" />
+    </section>
+    <!-- end Heading -->
+    <!-- couples -->
+    <section class="couples container">
+      <a href="#" class="card">
+        <img src="./images/couple.png" alt="Couple" />
+        <div class="box">
+          <span>Wedding</span>
+          <h4>Wedding Tips For Fashion</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="imgEffect"></div>
+      </a>
+      <a href="#" class="card">
+        <img src="./images/couple1.png" alt="Couple One" />
+        <div class="box">
+          <span>Photography</span>
+          <h4>Photography Effects</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="imgEffect"></div>
+      </a>
+      <a href="#" class="card">
+        <img src="./images/couple2.png" alt="Couple Two" />
+        <div class="box">
+          <span>Fashion</span>
+          <h4>Apparels & Makeup Kits</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="imgEffect"></div>
+      </a>
+    </section>
+    <!-- end couples -->
+    <!-- Heading -->
+    <section class="pageHeading container">
+      <h2>Join The Conversaton</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </p>
+      <img src="./images/heart2.svg" alt="Heart" />
+    </section>
+    <!-- end Heading -->
+    <!-- joinConversation-->
+    <section class="joinConversation container">
+      <!-- first -->
+      <div class="card">
+        <div class="top">
+          <h4>Wedding Insurance</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of theprinting and typesetting
+            industry. Lorem psum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled.
+          </p>
+          <span>Today at 2:12 pm</span>
+        </div>
+        <div class="bottom">
+          <div>
+            <img src="./images/avatar.png" alt="Avatar" /><span>John Doe</span>
+          </div>
+          <div>
+            <img src="./images/message.svg" alt="Message" /><span>22</span>
+          </div>
+          <div>
+            <img src="./images/heart3.svg" alt="Message" /><span>20</span>
+          </div>
+        </div>
+      </div>
+      <!-- Second -->
+      <div class="card">
+        <div class="top">
+          <h4>Wedding Insurance</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of theprinting and typesetting
+            industry. Lorem psum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled.
+          </p>
+          <span>Today at 2:12 pm</span>
+        </div>
+        <div class="bottom">
+          <div>
+            <img src="./images/avatar.png" alt="Avatar" /><span>John Doe</span>
+          </div>
+          <div>
+            <img src="./images/message.svg" alt="Message" /><span>22</span>
+          </div>
+          <div>
+            <img src="./images/heart3.svg" alt="Message" /><span>20</span>
+          </div>
+        </div>
+      </div>
+      <!-- Third -->
+      <div class="card">
+        <div class="top">
+          <h4>Wedding Insurance</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of theprinting and typesetting
+            industry. Lorem psum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled.
+          </p>
+          <span>Today at 2:12 pm</span>
+        </div>
+        <div class="bottom">
+          <div>
+            <img src="./images/avatar.png" alt="Avatar" /><span>John Doe</span>
+          </div>
+          <div>
+            <img src="./images/message.svg" alt="Message" /><span>22</span>
+          </div>
+          <div>
+            <img src="./images/heart3.svg" alt="Message" /><span>20</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end joinConversation -->
+    <!-- Heading -->
+    <section class="pageHeading container">
+      <h2>Plan Your destination Wedding</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </p>
+      <img src="./images/heart2.svg" alt="Heart" />
+    </section>
+    <!-- end Heading -->
+    <!-- destination -->
+    <section class="destination container">
+      <div class="card">
+        <img src="./images/destinationOne.png" alt="destination One" /><span
+          >Argentina</span
+        >
+      </div>
+      <div class="card">
+        <img src="./images/destinationTwo.png" alt="destination Two" /><span
+          >Brazil</span
+        >
+      </div>
+      <div class="card">
+        <img src="./images/destinationThree.png" alt="destination Three" /><span
+          >Colombia</span
+        >
+      </div>
+      <div class="card">
+        <img src="./images/destinationFour.png" alt="destination Four" /><span
+          >Srilanka</span
+        >
+      </div>
+    </section>
+    <!-- end destination -->
+    <!-- Heading -->
+    <section class="pageHeading container">
+      <h2>Search by Category to Find Your Wedding Suppliers</h2>
+    </section>
+    <!-- end Heading -->
+    <!-- category -->
+    <section class="category">
+      <div class="card">
+        <div class="top">
+          <img src="./images/category1.png" alt="Category one" /><span
+            class="text"
+            >Wedding Venues</span
+          ><span class="triangle"></span>
+        </div>
+        <div class="bottom">
+          <div class="left">
+            <a href="#">Barn Weddings</a><a href="#">Country Weddings</a
+            ><a href="#">Bar, Pub and Restaurant</a
+            ><a href="#">Unique Weddings</a><a href="#">Castle Weddings</a
+            ><a href="#">Historic Weddings</a
+            ><a href="#">Small Hotel Weddings</a
+            ><a href="#">Vineyard Weddings</a><a href="#">City Weddings</a
+            ><a href="#">Large Hotel Weddings</a><a href="#">Sporting</a
+            ><a href="#">Woodland Weddings</a>
+          </div>
+          <div class="right">
+            <a href="#">Coastal and Beach Weddings</a
+            ><a href="#">Marquees and Tents</a><a href="#">Stately Home</a
+            ><a href="#">Asian Weddings</a><a href="#">Church Weddings</a
+            ><a href="#">Landmark Weddings</a><a href="#">Tipis and Yurts</a
+            ><a href="#">Chapel on Premises</a
+            ><a href="#">Civil Ceremony Licence</a><a href="#">Exclusive Use</a
+            ><a href="#">Outdoor Weddings</a
+            ><a href="#">Pet Friendly Weddings</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="top">
+          <img src="./images/category2.png" alt="Category Two" />
+          <span class="text">Wedding Suppliers</span>
+          <span class="triangle"></span>
+        </div>
+        <div class="bottom">
+          <div class="left">
+            <a href="#">Beauty, Hair & Make Up</a><a href="#">Decorative Hire</a
+            ><a href="#">Mobile Bar Services</a
+            ><a href="#">Something Different</a><a href="#">Bridalwear Shops</a
+            ><a href="#">Entertainment</a><a href="#">Music and DJs</a
+            ><a href="#">Speechwriting Services</a><a href="#">Cakes</a
+            ><a href="#">Favours</a><a href="#">Stationery</a>
+          </div>
+          <div class="right">
+            <a href="#">Albums and Guest Books</a><a href="#">Chair Covers</a
+            ><a href="#">Confetti and Bubbles</a
+            ><a href="#">Destination Weddings</a><a href="#">Fireworks</a
+            ><a href="#">First Dance Choreography</a
+            ><a href="#">Hen and Stag nights</a><a href="#">Toastmasters</a
+            ><a href="#">Celebrants</a><a href="#">Nannies</a
+            ><a href="#">Dress Cleaning and Boxes</a
+            ><a href="#">Sweets and Treats</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- category -->
+    <footer>
+      <div class="container footer">
+        <div class="top">
+          <div class="first">
+            <h6>Quick Links</h6>
+            <a href="#">Trending</a>
+            <a href="#">Destinations</a>
+            <a href="#">Best Trip Orgnazers</a>
+            <a href="#">Your Travel Mate</a>
+            <a href="#">Meet Our Guides</a>
+          </div>
+          <div class="second">
+            <h6>Top Destinations</h6>
+            <a href="#">Turkey</a>
+            <a href="#">Malaysia</a>
+            <a href="#">Dubai</a>
+            <a href="#">Switzerland</a>
+          </div>
+          <div class="third">
+            <h6>For Business</h6>
+            <a href="#">Restaurants</a>
+            <a href="#">Experiences</a>
+            <a href="#">Community</a>
+            <a href="#">Homes</a>
+          </div>
+          <div class="forth">
+            <h6>Get Our Apps</h6>
+            <a href="#"><img src="./images/playStore.svg" alt="Play Store" /></a
+            ><a href="#"><img src="./images/appStore.svg" alt="App Store" /></a>
+          </div>
+        </div>
+        <div class="bottom">
+          <span>© 2018 <a href="#">TripsCon</a> All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
